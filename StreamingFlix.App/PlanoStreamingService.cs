@@ -17,7 +17,7 @@ namespace StreamingFlix.App
             else if (telasSimultaneas == quantidadeTelasPadrao)
             { return "PADRÃO"; }
             else if (telasSimultaneas <= quantidadeTelasPremium)
-            { return "PREMIUN"; }
+            { return "PREMIUM"; }
             else 
             { return "QUANTIDADE INVALIDA DE TELAS"; }
         }
